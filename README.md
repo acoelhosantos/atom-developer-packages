@@ -1,23 +1,19 @@
 # atom-developer-packages
-A curated list of Atom packages useful to software developers.
+A curated list of Atom packages useful to software developers - [packages-list.txt](packages-list.txt).
 
 ## Requirements
 - [Atom](https://atom.io/) editor
-- [Atom shell commands](https://atom.io/packages/atom-shell-commands) installed (```atom``` and ```apm```)
+- [Atom shell commands](https://atom.io/packages/atom-shell-commands) installed (```atom``` v1.12.5 and ```apm``` v1.12.9)
 
-## How to generate/install a list of packages
-Commands tested on macOS Sierra (10.12.1) and with the following versions:
-- ```atom``` 1.12.5
-- ```apm``` 1.12.9
-
-### Generate list
+## How to install the list of packages
+Note: Commands tested on macOS Sierra (10.12.1).
 ```shell
-apm list --installed --dev --bare > PACKAGES_FILENAME
+apm install --compatible --packages-file packages-list.txt
 ```
 
-### Install from list
+The list was generated using the following command and options:
 ```shell
-apm install --compatible --packages-file PACKAGES_FILENAME
+apm list --installed --dev --bare > packages-list.txt
 ```
 
 # License
