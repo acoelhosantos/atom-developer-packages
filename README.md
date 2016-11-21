@@ -19,3 +19,6 @@ apm list --installed --dev --bare > PACKAGES_FILENAME
 ```shell
 apm install --compatible --packages-file PACKAGES_FILENAME
 ```
+
+# License
+[MIT](LICENSE.md)
