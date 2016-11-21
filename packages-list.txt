@@ -1,3 +1,4 @@
+file-icons@1.7.25
 git-control@0.8.2
 haskell-grammar@0.4.0
 highlight-selected@0.11.2
@@ -10,5 +11,7 @@ markdown-preview-plus@2.4.0
 merge-conflicts@1.4.4
 nuclide@0.183.0
 nuclide-format-js@0.0.36
+pinned-tabs@0.4.1
 sort-lines@0.14.0
 tool-bar@1.0.1
+webbox-color@0.5.9
