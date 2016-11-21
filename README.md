@@ -17,4 +17,4 @@ apm list --installed --dev --bare > packages-list.txt
 ```
 
 # License
-[MIT](LICENSE.md)
+[MIT](LICENSE)
